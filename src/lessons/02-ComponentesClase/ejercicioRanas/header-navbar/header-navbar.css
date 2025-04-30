@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    span {
+      margin-left: 30px;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+      text-align: center;
+      padding: 1rem;
+      margin-left: 50px;
+    }
+    a:hover {
+      background-color: #eee;
+    }
+    .last-nav-a {
+      margin-right: 100px;
+    }
+  }
+}

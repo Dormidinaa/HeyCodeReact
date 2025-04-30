@@ -1,0 +1,26 @@
+.foto {
+  height: 105px;
+  width: 157px;
+  object-fit: cover;
+}
+
+.botones-galeria {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 16px;
+  button {
+    border-radius: 1rem;
+    padding: 16px;
+  }
+}
+
+.imagen {
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.centrar-imagen {
+  display: flex;
+  justify-content: center;
+}

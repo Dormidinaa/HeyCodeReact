@@ -1,0 +1,21 @@
+.lista-ppal {
+  display: flex;
+}
+
+.formulario {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.lista {
+  background-image: url(/images/Lista/paper.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 50%;
+  padding-top: 150px;
+  padding-left: 100px;
+}

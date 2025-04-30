@@ -1,0 +1,13 @@
+.section-2 {
+  height: 20rem;
+  background-color: lightgreen;
+  h2 {
+    text-align: center;
+    padding-block: 1rem;
+    font-size: 3rem;
+  }
+  p {
+    text-align: center;
+    font-size: 1rem;
+  }
+}

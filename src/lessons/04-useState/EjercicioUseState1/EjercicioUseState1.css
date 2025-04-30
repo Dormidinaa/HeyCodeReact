@@ -1,0 +1,23 @@
+.main-vh {
+  height: 100vh;
+}
+.tema-claro {
+  background-color: white;
+  color: black;
+}
+
+.tema-oscuro {
+  background-color: black;
+  color: white;
+}
+
+.tema-red {
+  background-color: red;
+}
+.tema-green {
+  background-color: green;
+}
+.div-cuadrado {
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,44 @@
+.form1 {
+  width: 200px;
+  padding: 1rem;
+  background-color: aqua;
+}
+
+.resultado-escrito {
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.ppal {
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rojo {
+  background-color: rgb(227, 110, 110);
+}
+.verde {
+  background-color: green;
+}
+.azul {
+  background-color: blue;
+}
+.amarillo {
+  background-color: yellow;
+}
+.mensaje {
+  color: red;
+}

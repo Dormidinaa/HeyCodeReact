@@ -1,0 +1,23 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-4 {
+  background-color: lightgreen;
+  padding-top: 15rem;
+  .container {
+    h4 {
+      font-size: 2rem;
+      padding-block: 2rem;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .p-pd {
+    padding-block: 2rem;
+    font-size: 20px;
+  }
+}

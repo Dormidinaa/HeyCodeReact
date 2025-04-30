@@ -1,0 +1,40 @@
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 60px;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  align-items: center;
+  padding: 15px;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 40%;
+  }
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 50%;
+  }
+}

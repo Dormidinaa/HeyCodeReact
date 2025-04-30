@@ -1,0 +1,72 @@
+.calculadora-frame {
+  background-color: lightskyblue;
+  width: 500px;
+  height: 50vh;
+  border-radius: 1rem;
+  h1 {
+    text-align: center;
+  }
+}
+
+.zona-operaciones {
+  display: flex;
+
+  input {
+    border-radius: 1rem;
+    margin-inline: 1rem;
+  }
+  p {
+    margin-inline: auto;
+    font-size: 20px;
+  }
+}
+.operadores {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+
+  button {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-inline: auto;
+  }
+}
+
+h2 {
+  margin-left: 1rem;
+}
+
+.conversor-frame {
+  margin-top: 1rem;
+  background-color: lightskyblue;
+  width: 500px;
+  height: 33vh;
+  border-radius: 1rem;
+  h1 {
+    text-align: center;
+  }
+  form {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  button {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.ubicar-input {
+  display: flex;
+  flex-direction: column;
+  input {
+    margin-top: 1rem;
+    width: 25%;
+    border-radius: 1rem;
+    height: 2rem;
+  }
+}
+
+.conversor-botones {
+  padding-top: 1rem;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.blue {
+  background-color: lightblue;
+  height: 100vh;
+  padding: 3rem;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  margin: 1rem;
+  background-color: lightblue;
+}
+button:disabled {
+  opacity: 1;
+}
+
+.formato-generar {
+  padding: 3rem;
+}
+
+.boton-generar {
+  height: 60px;
+  width: 100px;
+}
+
+.formato-botones-textos {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textos-tiradas {
+  margin-right: 10rem;
+  font-size: 2rem;
+  text-align: center;
+}

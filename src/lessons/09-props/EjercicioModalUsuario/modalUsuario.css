@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fondo1 {
+  background-color: rgb(194, 188, 188);
+}
+
+.superpuesto {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1050;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.completar-perfil {
+  width: 500px;
+  height: auto;
+  background-color: burlywood;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.h1-main {
+  font-size: 60px;
+}
+
+.margin-row {
+  margin-top: 10rem;
+}

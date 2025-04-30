@@ -1,0 +1,13 @@
+.section-3 {
+  height: 18rem;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  transform: translateY(-8rem);
+}
+.card2 {
+  transform: translateY(-4rem);
+}
