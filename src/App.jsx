@@ -58,6 +58,8 @@ import { Container } from 'react-bootstrap';
 // import { ElPoder } from './lessons/09-props/ElPoderDeLasProps/ElPoder';
 // -------------------Ejercicio Modal Usuario-------------------------------------
 import { ModalUsuarioApp } from './lessons/09-props/EjercicioModalUsuario/ModalUsuarioApp';
+// -------------------Ejercicio Paso Hermanos-------------------------------------
+import { PasoHermanosApp } from './lessons/09-props/EjerPasoHermanos/PasoHermanosApp';
 
 // import './App.css';
 function App() {
@@ -123,7 +125,9 @@ function App() {
       {/* // -------------------Ejercicio Fruteria------------------------------------ */}
       {/* <ElPoder /> */}
       {/* // -------------------Ejercicio Modal Usuario------------------------------------ */}
-      <ModalUsuarioApp />
+      {/* <ModalUsuarioApp /> */}
+      {/* // -------------------Ejercicio Paso Hermanos------------------------------------ */}
+      <PasoHermanosApp />
       {/* </div> */}
     </Container>
   );
