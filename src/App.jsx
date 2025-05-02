@@ -57,9 +57,19 @@ import { Container } from 'react-bootstrap';
 // -------------------Ejercicio El poder de las props-------------------------------------
 // import { ElPoder } from './lessons/09-props/ElPoderDeLasProps/ElPoder';
 // -------------------Ejercicio Modal Usuario-------------------------------------
-import { ModalUsuarioApp } from './lessons/09-props/EjercicioModalUsuario/ModalUsuarioApp';
+// import { ModalUsuarioApp } from './lessons/09-props/EjercicioModalUsuario/ModalUsuarioApp';
 // -------------------Ejercicio Paso Hermanos-------------------------------------
-import { PasoHermanosApp } from './lessons/09-props/EjerPasoHermanos/PasoHermanosApp';
+// import { PasoHermanosApp } from './lessons/09-props/EjerPasoHermanos/PasoHermanosApp';
+// -------------------clase 10 children-------------------------------------
+// import { ChildrenApp } from './lessons/10-children/explicacion/ChildrenApp';
+// -------------------clase 11 UseEffect-------------------------------------
+// import { UseEffectApp } from './lessons/11-useEffect/explicacion/UseEffectApp';
+//----------------------Ejercicio MyApp-----------
+// import { MyApp } from './lessons/11-useEffect/localStorage/MyApp';
+// -------------------clase 12 Context-------------------------------------
+// import { ContextApp } from './lessons/12-Context/explicacion/ContextApp';
+// -------------------clase 12 Context Profesional-------------------------------------
+import { ContextAvanzado } from './lessons/12-Context/explicacionPofesional/ContextAvanzado';
 
 // import './App.css';
 function App() {
@@ -127,7 +137,17 @@ function App() {
       {/* // -------------------Ejercicio Modal Usuario------------------------------------ */}
       {/* <ModalUsuarioApp /> */}
       {/* // -------------------Ejercicio Paso Hermanos------------------------------------ */}
-      <PasoHermanosApp />
+      {/* <PasoHermanosApp /> */}
+      {/* // -------------------clase 10 Children------------------------------------- */}
+      {/* <ChildrenApp /> */}
+      {/* // -------------------clase 11 useEffect------------------------------------- */}
+      {/* <UseEffectApp /> */}
+      {/* // -------------------Ejercicio MiApp------------------------------------ */}
+      {/* <MyApp /> */}
+      {/* // -------------------clase 12 Context------------------------------------- */}
+      {/* <ContextApp /> */}
+      {/* // -------------------clase 12 Context Avanzado------------------------------------- */}
+      <ContextAvanzado />
       {/* </div> */}
     </Container>
   );
