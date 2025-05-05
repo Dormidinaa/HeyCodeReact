@@ -73,9 +73,9 @@ import { Container } from 'react-bootstrap';
 // -------------------Ejercicio Lista Usuarios Storage-------------------------------------
 // import { ListaUsuariosApp } from './lessons/11-useEffect/EjercicioListaUsuariosStorage/ListaUsuariosApp';
 // -------------------Ejercicio Modal-------------------------------------
-// import { ModalApp } from './lessons/11-useEffect/EjercicioModal/ModalApp';
+import { ModalApp } from './lessons/11-useEffect/EjercicioModal/ModalApp';
 // -------------------Ejercicio LoginContext-------------------------------------
-import { LoginApp } from './lessons/11-useEffect/EjercicioLogin/LoginApp';
+// import { LoginApp } from './lessons/11-useEffect/EjercicioLogin/LoginApp';
 
 // import './App.css';
 function App() {
@@ -157,9 +157,9 @@ function App() {
       {/* // -------------------Ejercicio lista usuarios------------------------------------- */}
       {/* <ListaUsuariosApp /> */}
       {/* // -------------------EjercicioModal------------------------------------ */}
-      {/* <ModalApp /> */}
+      <ModalApp />
       {/* // -------------------Ejercicio Login------------------------------------ */}
-      <LoginApp />
+      {/* <LoginApp /> */}
 
       {/* </div> */}
     </Container>

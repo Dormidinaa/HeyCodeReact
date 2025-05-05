@@ -14,8 +14,26 @@ export const ModalApp = () => {
   const [show, setShow] = useState(false);
   const [user, setUser] = useState(initialValue);
   const [arrayUser, setArrayUser] = useState([]);
+  const [inputText, setInputText] = useState('');
+  const [searchField, setSearchField] = useState('');
+  const [filterBy, setFilterBy] = useState('name');
 
-  console.log(arrayUser);
+  const handleFilterClick = () => {
+    setSearchField(inputText);
+  };
+
+  const filteredUsers = arrayUser.filter((user) => {
+    const fieldValue = user[filterBy] || '';
+    return fieldValue.toLowerCase().includes(searchField.toLowerCase());
+  });
+
+  const handleSearchChange = (e) => {
+    setInputText(e.target.value);
+  };
+
+  const handleFilterChange = (e) => {
+    setFilterBy(e.target.value);
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,7 +53,13 @@ export const ModalApp = () => {
   };
   return (
     <>
-      <NavbarComponent handleOpen={handleOpen} />
+      <NavbarComponent
+        handleOpen={handleOpen}
+        handleSearchChange={handleSearchChange}
+        handleFilterChange={handleFilterChange}
+        handleFilterClick={handleFilterClick}
+      />
+
       <h1 className="text-center mt-5">Formulario en Modal</h1>
       <Table striped bordered hover>
         <thead>
@@ -69,7 +93,16 @@ export const ModalApp = () => {
             <th>Email</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          {filteredUsers.map((elem, index) => (
+            <tr key={index}>
+              <td>{index + 1}</td>
+              <td>{elem.name}</td>
+              <td>{elem.lastname}</td>
+              <td>{elem.email}</td>
+            </tr>
+          ))}
+        </tbody>
       </Table>
 
       <ModalComponent

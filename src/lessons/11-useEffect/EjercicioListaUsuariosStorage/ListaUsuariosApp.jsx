@@ -62,13 +62,13 @@ export const ListaUsuariosApp = () => {
 
       <h2>Usuarios</h2>
       <ul>
-        {userArray.map((elem, index) => {
+        {/* {userArray.map((elem, index) => {
           return (
             <li key={index}>
               {elem.name} {elem.lastname} {elem.email}
             </li>
           );
-        })}
+        })} */}
       </ul>
     </div>
   );

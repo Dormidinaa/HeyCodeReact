@@ -6,7 +6,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 export const NavbarComponent = ({
-  handleOpen
+  handleOpen,
+  handleSearchChange,
+  handleFilterChange,
+  handleFilterClick, // nuevo
 }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -25,13 +28,16 @@ export const NavbarComponent = ({
               Link
             </Nav.Link>
           </Nav>
-          <Form className="d-flex">
+          <Form className="d-flex align-items-center">
             <Form.Check
               type="radio"
               label="Name"
               name="radioGroup"
               id="radio1"
               className="me-3"
+              value="name"
+              onChange={handleFilterChange}
+              defaultChecked
             />
             <Form.Check
               type="radio"
@@ -39,6 +45,8 @@ export const NavbarComponent = ({
               name="radioGroup"
               id="radio2"
               className="me-3"
+              value="lastname"
+              onChange={handleFilterChange}
             />
             <Form.Check
               type="radio"
@@ -46,14 +54,19 @@ export const NavbarComponent = ({
               name="radioGroup"
               id="radio3"
               className="me-3"
+              value="email"
+              onChange={handleFilterChange}
             />
             <Form.Control
               type="search"
               placeholder="Buscar"
               className="me-2"
               aria-label="Search"
+              onChange={handleSearchChange}
             />
-            <Button variant="outline-success">Filtrar</Button>
+            <Button variant="outline-success" onClick={handleFilterClick}>
+              Filtrar
+            </Button>
             <Button variant="outline-success" onClick={handleOpen}>
               Registrar
             </Button>
