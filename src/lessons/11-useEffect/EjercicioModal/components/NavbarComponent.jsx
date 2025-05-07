@@ -9,7 +9,7 @@ export const NavbarComponent = ({
   handleOpen,
   handleSearchChange,
   handleFilterChange,
-  handleFilterClick, // nuevo
+  handleFilterClick,
 }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">

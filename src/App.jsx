@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
+
 //-----------clase 1 import/export--------------
 // import { ImportExportApp } from './lessons/01-import-export/explicacion/ImportExportApp';
 //-----------clase 2 Componentes de tipo clase--------------
@@ -73,15 +74,32 @@ import { Container } from 'react-bootstrap';
 // -------------------Ejercicio Lista Usuarios Storage-------------------------------------
 // import { ListaUsuariosApp } from './lessons/11-useEffect/EjercicioListaUsuariosStorage/ListaUsuariosApp';
 // -------------------Ejercicio Modal-------------------------------------
-import { ModalApp } from './lessons/11-useEffect/EjercicioModal/ModalApp';
+// import { ModalApp } from './lessons/11-useEffect/EjercicioModal/ModalApp';
 // -------------------Ejercicio LoginContext-------------------------------------
 // import { LoginApp } from './lessons/11-useEffect/EjercicioLogin/LoginApp';
+// -------------------14 ApiRickApp-------------------------------------
+// import { ApiRickApp } from './lessons/14-Api-Rick/ApiRickApp';
+// -------------------15 UseRef-------------------------------------
+// import { UseRefApp } from './lessons/15-useRef/UseRefApp';
+// -------------------16 CustomHook-------------------------------------
+// import { CustomHookApp } from './lessons/16-CustomHook/explicacion/CustomHookApp';
+// -------------------17 ApiWeather-------------------------------------
+// import { ApiWeather } from './lessons/17-ApiWeather/ApiWeather';
+// -------------------18 UserefEjer-------------------------------------
+// import { EjerClaseUseRef } from './lessons/18-EjerClaseUseRef/EjerClaseUseRef';
+// -------------------19 ReactRouterDom-------------------------------------
+// import { RouterApp } from './lessons/19-ReactRouterDom/explicacion/RouterApp';
+// -------------------Ejercicio Frutería-------------------------------------
+// import { Fruteria } from './lessons/19-ReactRouterDom/EjercicioFruteria/Fruteria';
+// -------------------CARGA PEREZOSA-------------------------------------
+// import { LazyLoadApp } from './lessons/19-ReactRouterDom/CargaPerezosa/LazyLoadApp';
+// -------------------AUTH APP-------------------------------------
+import { AuthApp } from './lessons/20-Auth/AuthApp';
 
 // import './App.css';
 function App() {
   return (
-    <Container fluid>
-      {/* <div className="app-ppal"> */}
+    <>
       {/* //-----------clase 1 import/export-------------- */}
       {/* <ImportExportApp /> */}
       {/* //-----------clase 2 Componentes de tipo clase-------------- */}
@@ -157,12 +175,26 @@ function App() {
       {/* // -------------------Ejercicio lista usuarios------------------------------------- */}
       {/* <ListaUsuariosApp /> */}
       {/* // -------------------EjercicioModal------------------------------------ */}
-      <ModalApp />
+      {/* <ModalApp /> */}
       {/* // -------------------Ejercicio Login------------------------------------ */}
       {/* <LoginApp /> */}
-
-      {/* </div> */}
-    </Container>
+      {/* // -------------------CLASE API RICK------------------------------------ */}
+      {/* <ApiRickApp /> */}
+      {/* <UseRefApp /> */}
+      {/* <CustomHookApp /> */}
+      {/* // -------------------CLASE API WEATHER------------------------------------ */}
+      {/* <ApiWeather /> */}
+      {/* // -------------------Ejer UseRef------------------------------------ */}
+      {/* <EjerClaseUseRef /> */}
+      {/* // -------------------19 REACT ROUTERDOM------------------------------------ */}
+      {/* <RouterApp /> */}
+      {/* // ------------------Ejercicio Fruteria----------------------------------- */}
+      {/* <Fruteria /> */}
+      {/* // ------------------CARGA PEREZOSA----------------------------------- */}
+      {/* <LazyLoadApp /> */}
+      {/* // ------------------CLASE 19 AUTH APP----------------------------------- */}
+      <AuthApp />
+    </>
   );
 }
 
