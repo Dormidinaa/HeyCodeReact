@@ -1,7 +1,7 @@
 import React from 'react';
 import { fruits } from '../../data';
 import { FruitsCard } from '../../components/FruitsCard/FruitsCard';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 export const FruitList = () => {
   return (
