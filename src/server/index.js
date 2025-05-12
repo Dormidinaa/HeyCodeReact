@@ -25,6 +25,7 @@ app.post('/login', (req, res) => {
   } else {
     res.status(401).json({ message: 'El usuario no existe' });
   }
+  console.log(password);
 
   //Verificar que la contraseña es correcta
   //Genero un token que dentro lleva el id del user y una palabra secreta

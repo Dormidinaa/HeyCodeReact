@@ -94,9 +94,11 @@ import { Container } from 'react-bootstrap';
 // -------------------CARGA PEREZOSA-------------------------------------
 // import { LazyLoadApp } from './lessons/19-ReactRouterDom/CargaPerezosa/LazyLoadApp';
 // -------------------AUTH APP-------------------------------------
-import { AuthApp } from './lessons/20-Auth/AuthApp';
+// import { AuthApp } from './lessons/20-Auth/AuthApp';
 // -------------------AUTH APP-------------------------------------
 // import { PanApp } from './lessons/19-ReactRouterDom/EjercicioPanaderia/PanApp';
+// -------------------Ejercicio 1 Auth fin de semana-------------------------------------
+import { AuthNormalApp } from './lessons/21-EjercicioAuth1/AuthNormalApp';
 
 // import './App.css';
 function App() {
@@ -195,9 +197,11 @@ function App() {
       {/* // ------------------CARGA PEREZOSA----------------------------------- */}
       {/* <LazyLoadApp /> */}
       {/* // ------------------CLASE 19 AUTH APP----------------------------------- */}
-      <AuthApp />
+      {/* <AuthApp /> */}
       {/* // ------------------CARGA PEREZOSA----------------------------------- */}
       {/* <PanApp /> */}
+      {/* // ------------------Ejercicio 1 Auth Normal----------------------------------- */}
+      <AuthNormalApp />
     </>
   );
 }
